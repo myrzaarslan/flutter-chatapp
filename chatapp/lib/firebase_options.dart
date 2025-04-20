@@ -24,15 +24,6 @@ class DefaultFirebaseOptions {
         return android;
       case TargetPlatform.iOS:
         return ios;
-      case TargetPlatform.macOS:
-        return macos;
-      case TargetPlatform.windows:
-        return windows;
-      case TargetPlatform.linux:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for linux - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
       default:
         throw UnsupportedError(
           'DefaultFirebaseOptions are not supported for this platform.',
@@ -67,22 +58,22 @@ class DefaultFirebaseOptions {
     iosBundleId: 'com.example.chatapp',
   );
 
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBHFfoUY9McsGMvn_jsz03lJgy-0VG-IAc',
-    appId: '1:960824864356:ios:e9ec6b63ea64026174b971',
-    messagingSenderId: '960824864356',
-    projectId: 'flutter-chatapp-c406a',
-    storageBucket: 'flutter-chatapp-c406a.firebasestorage.app',
-    iosBundleId: 'com.example.chatapp',
-  );
+  // static const FirebaseOptions macos = FirebaseOptions(
+  //   apiKey: 'AIzaSyBHFfoUY9McsGMvn_jsz03lJgy-0VG-IAc',
+  //   appId: '1:960824864356:ios:e9ec6b63ea64026174b971',
+  //   messagingSenderId: '960824864356',
+  //   projectId: 'flutter-chatapp-c406a',
+  //   storageBucket: 'flutter-chatapp-c406a.firebasestorage.app',
+  //   iosBundleId: 'com.example.chatapp',
+  // );
 
-  static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyCde9rL-1RTOvPpC6Y_9xXjhS3kY-XRwgM',
-    appId: '1:960824864356:web:f0d07e5dedd4d8a874b971',
-    messagingSenderId: '960824864356',
-    projectId: 'flutter-chatapp-c406a',
-    authDomain: 'flutter-chatapp-c406a.firebaseapp.com',
-    storageBucket: 'flutter-chatapp-c406a.firebasestorage.app',
-    measurementId: 'G-T51EV04QB4',
-  );
+  // static const FirebaseOptions windows = FirebaseOptions(
+  //   apiKey: 'AIzaSyCde9rL-1RTOvPpC6Y_9xXjhS3kY-XRwgM',
+  //   appId: '1:960824864356:web:f0d07e5dedd4d8a874b971',
+  //   messagingSenderId: '960824864356',
+  //   projectId: 'flutter-chatapp-c406a',
+  //   authDomain: 'flutter-chatapp-c406a.firebaseapp.com',
+  //   storageBucket: 'flutter-chatapp-c406a.firebasestorage.app',
+  //   measurementId: 'G-T51EV04QB4',
+  // );
 }
