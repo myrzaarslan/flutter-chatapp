@@ -52,7 +52,7 @@ class LoginPage extends StatelessWidget {
 
           const SizedBox(height: 25),
 
-          MyTextfiled(
+          MyTextField(
             hintText: "Email",
             obscureText: false,
             controller: _emailController,
@@ -60,7 +60,7 @@ class LoginPage extends StatelessWidget {
 
           const SizedBox(height: 10),
 
-          MyTextfiled(
+          MyTextField(
             hintText: "Password",
             obscureText: true,
             controller: _pwController,

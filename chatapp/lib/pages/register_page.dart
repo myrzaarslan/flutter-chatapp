@@ -55,7 +55,7 @@ class RegisterPage extends StatelessWidget {
 
           const SizedBox(height: 25),
 
-          MyTextfiled(
+          MyTextField(
             hintText: "Email",
             obscureText: false,
             controller: _emailController,
@@ -63,7 +63,7 @@ class RegisterPage extends StatelessWidget {
 
           const SizedBox(height: 10),
 
-          MyTextfiled(
+          MyTextField(
             hintText: "Password",
             obscureText: true,
             controller: _pwController,
@@ -71,7 +71,7 @@ class RegisterPage extends StatelessWidget {
 
           const SizedBox(height: 10),
 
-          MyTextfiled(
+          MyTextField(
             hintText: "Confirm password",
             obscureText: true,
             controller: _confirmPwController,
